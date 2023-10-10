@@ -1,6 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import s from '../public/scarab-with-wings-svgrepo-com (1).svg'
+import s from '/scarab-with-wings-svgrepo-com (1).svg'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
