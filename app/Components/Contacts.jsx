@@ -35,7 +35,7 @@ const Contacts = () => {
           height={50}
           priority
         /></Link>
-         <Link href={'https://pharoah1.vercel.app/'}>
+         <Link href={'https://twitter.com/PharaohThe38806'}>
          <Image
           src="/twitter-svgrepo-com.svg"
           alt="Next.js Logo"
