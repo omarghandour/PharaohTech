@@ -1,8 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 const Contacts = () => {
   return (
-      <section id='contacts' className='Contacts'>
+    <section id='contacts' className='Contacts'>
      <div className="cBottom">
           <div className="cLeft">
                <div className="con"><h4>Mailing address</h4>
