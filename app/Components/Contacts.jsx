@@ -44,6 +44,8 @@ const Contacts = () => {
           priority
         /></Link>
           </div>
+            <p style={{color: 'white' }}>&#169; Omar Ghandour 2023</p>
+
      </div>
 
     </section>
