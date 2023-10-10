@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const Contacts = () => {
   return (
-    <section id='contacts' className='Contacts'>
+      <section id='contacts' className='Contacts'>
      <div className="cBottom">
           <div className="cLeft">
                <div className="con"><h4>Mailing address</h4>
@@ -18,27 +18,30 @@ const Contacts = () => {
                </div>
           </div>
           <div className="cRight">
+            <Link href={'https://www.facebook.com/profile.php?id=61552004890350&sk=friends_likes'} >
           <Image
           src="/facebook-color-svgrepo-com.svg"
           alt="Next.js Logo"
           width={50}
           height={50}
           priority
-        />
+        /></Link>
+         <Link href={'https://www.instagram.com/pharaohtech2/'}>
          <Image
           src="/instagram-1-svgrepo-com.svg"
           alt="Next.js Logo"
           width={50}
           height={50}
           priority
-        />
+        /></Link>
+         <Link href={'https://pharoah1.vercel.app/'}>
          <Image
           src="/twitter-svgrepo-com.svg"
           alt="Next.js Logo"
           width={50}
           height={50}
           priority
-        />
+        /></Link>
           </div>
      </div>
 
