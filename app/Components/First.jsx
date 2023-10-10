@@ -8,7 +8,7 @@ const First = () => {
 <div className="top">
      <div className="logo">
      <Image
-          src="/scarab-with-wings-svgrepo-com (1).svg"
+          src="/cc.svg"
           alt="Next.js Logo"
           width={100}
           height={100}
