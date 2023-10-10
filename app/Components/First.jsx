@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import './component.css'
+import Link from 'next/link'
 const First = () => {
   return (
     <section className='First'>
@@ -19,7 +20,7 @@ const First = () => {
 <div className="content">
      <h1>A company that transforms your
 ideas into stunning websites.</h1>
-  <Link href{'#contacts'}>
+<Link href={'#contacts'}>
 <button className='btn'>Contact us</button></Link>
 
 </div>
