@@ -20,8 +20,7 @@ const First = () => {
 <div className="content">
      <h1>A company that transforms your
 ideas into stunning websites.</h1>
-<Link href={'#contacts'}>
-<button className='btn'>Contact us</button></Link>
+<Link className='btn' href={'#contacts'}>Contact us</Link>
 
 </div>
     </section>
