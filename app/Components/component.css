@@ -1,0 +1,199 @@
+*{
+     color: white;
+}
+.First {
+     background-color: black;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+ }
+.top{
+     display: flex;
+     align-items: center;
+     gap: 30px;
+     padding-left: 100px;
+}
+
+.content{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+.content .btn{
+     width: 200px;
+     padding: 15px;
+     border-radius: 10px;
+     background-color: beige;
+     color: black;
+     border: none;
+     transition: 0.3s ease;
+}
+.content .btn:hover{
+     width: 230px;
+     font-weight: bolder;
+}
+@media (max-width: 700px) {
+     .First{
+          justify-content: space-evenly;
+     }
+     .content h1{
+          width: 80%;
+     }
+     .top{
+          padding: 0;justify-content: center;
+     }
+}
+
+/* About */
+.About {
+height: 100vh;
+display: flex;
+align-items: center;
+}
+.About .left{
+width: 60%;
+padding: 20px;
+padding-left: 70px;
+}
+.icontainer{
+     display: flex;
+     justify-content: flex-end;
+     overflow: hidden;
+}
+.left h1,
+.left p{
+     color: #000;
+}
+.left h1{
+     font-size: 60px;
+}
+.left p{
+     width: 90%;
+}
+.right{
+     width: 50%;
+     overflow: hidden;
+     height: 100%;
+}
+@media (max-width: 700px) {
+     .About{
+          background-color: white;
+          justify-content: center;
+     }
+     .About .right{
+display: none;
+     }
+     .left{
+          width: 85% !important;
+          padding: 20px !important;
+          border-radius: 10px;
+     }
+     .left h1{
+          text-align: center;
+     }
+     .left p{
+          font-size: 20px;
+margin-top: 110px;     }
+}
+
+.cards{
+     display: flex;
+}
+
+/* OurServices */
+.OurServices{
+     background-color: #000;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+}
+.OurServices h1{
+     padding: 50px 0; 
+}
+.cards{
+     display: flex;
+     gap: 20px;
+}
+.card{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 10px;
+}
+.size{
+width: 100px;
+}
+
+.ddd{
+margin: 50px;
+}
+.card p{
+     width: 95%;
+     text-align: center;
+}
+@media (max-width: 700px) {
+     .cards{
+          flex-direction: column;
+          gap: 0;
+     }
+    
+     .ddd{
+          margin: 25px;
+     }
+}
+
+.Content{
+     height: 100vh;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}
+.Content h1{
+     color: #000;
+     width: 40%;
+}
+
+@media (max-width: 700px) {
+     .Content{
+          flex-direction: column;
+     }
+     .Content h1{
+          font-size: 25px;
+          width: 85%;
+     }
+}
+
+.Contacts{
+background-color: #000;
+     height: 50vh;
+}
+.cTop{
+     background-size: cover;
+     background-position: center;
+     height: 60%;
+}
+.cBottom{
+     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.cLeft{
+     display: flex;
+     gap: 30px;
+}
+.cRight img{
+     margin: 20px;
+}
+@media (max-width: 700px) {
+     .cLeft{
+          flex-direction: column;
+          align-items: center;
+     }
+}
