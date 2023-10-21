@@ -15,7 +15,7 @@ const Contacts = () => {
                </div>
                <div className="con">
                     <h4>Phone Number</h4>
-                    <h6>+201557775180</h6>
+                  <a  className='number'  href="tel:+201065065760"><h6>+201065065760</h6></a>
                </div>
           </div>
           <div className="cRight">
